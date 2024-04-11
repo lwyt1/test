@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.back_system.test_qd_1297.test_qd_1297",
+    "children" : [ {
+      "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
+      "uid" : "86e942527fc6e047",
+      "parentUid" : "71efbdec4dc9fcc09112af8432f74425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1702360560271,
+        "stop" : 1702360571038,
+        "duration" : 10767
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_case.back_system.test_qd_1297.test_qd_1297"
+  } ]
+}

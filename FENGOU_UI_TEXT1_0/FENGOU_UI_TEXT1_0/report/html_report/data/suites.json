@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.back_system.test_qd_1297",
+    "children" : [ {
+      "name" : "test_qd_1297",
+      "children" : [ {
+        "name" : "TestQd1297",
+        "children" : [ {
+          "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
+          "uid" : "86e942527fc6e047",
+          "parentUid" : "fdc2c4b96144d71756a1ec4c42f01907",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702360560271,
+            "stop" : 1702360571038,
+            "duration" : 10767
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fdc2c4b96144d71756a1ec4c42f01907"
+      } ],
+      "uid" : "6992178bb1ec61494b446ee0ad720c31"
+    } ],
+    "uid" : "fcccb0a49689f67fe6f61f23ac3e80d3"
+  } ]
+}

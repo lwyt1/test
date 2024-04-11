@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "crm后台——UI自动化测试项目",
+    "children" : [ {
+      "name" : "渠道一键2+1模块",
+      "children" : [ {
+        "name" : "渠道一键2+1模块 -- 【一键2+1】功能是否有效",
+        "children" : [ {
+          "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
+          "uid" : "86e942527fc6e047",
+          "parentUid" : "228935aae6053fe02263e2bf13696ff9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1702360560271,
+            "stop" : 1702360571038,
+            "duration" : 10767
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "228935aae6053fe02263e2bf13696ff9"
+      } ],
+      "uid" : "4e45262f1c81c768755cbd7e3c1e6019"
+    } ],
+    "uid" : "13c916c16acaf1f3ccfa140289d01637"
+  } ]
+}

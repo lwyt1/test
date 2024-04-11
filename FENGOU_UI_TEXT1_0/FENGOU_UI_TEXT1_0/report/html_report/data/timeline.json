@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-LD42PEOC",
+    "children" : [ {
+      "name" : "23584-MainThread",
+      "children" : [ {
+        "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
+        "uid" : "86e942527fc6e047",
+        "parentUid" : "4b95e20e1ead1a8db0f19b672d28a87e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702360560271,
+          "stop" : 1702360571038,
+          "duration" : 10767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b95e20e1ead1a8db0f19b672d28a87e"
+    } ],
+    "uid" : "0fd1e670db2d10bce2e9c3322df3250d"
+  } ]
+}
