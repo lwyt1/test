@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 12 13:56:00 CST 2023","Tue Dec 12 13:56:11 CST 2023","10767","test_case.back_system.test_qd_1297","test_qd_1297","TestQd1297","","","case_001 -- 验证点击【一键2+1】弹窗是否弹出",""
