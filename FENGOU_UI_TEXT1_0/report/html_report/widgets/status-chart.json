@@ -1,11 +1,21 @@
 [ {
-  "uid" : "86e942527fc6e047",
-  "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
+  "uid" : "c9155e22e0e1f5a0",
+  "name" : "case_002 -- 验证点击是否查看详情",
   "time" : {
-    "start" : 1702360560271,
-    "stop" : 1702360571038,
-    "duration" : 10767
+    "start" : 1745732916719,
+    "stop" : 1745732923304,
+    "duration" : 6585
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e40a64126cff890",
+  "name" : "case_001 -- 验证是否新增挑战赛排行榜",
+  "time" : {
+    "start" : 1745732901166,
+    "stop" : 1745732910111,
+    "duration" : 8945
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

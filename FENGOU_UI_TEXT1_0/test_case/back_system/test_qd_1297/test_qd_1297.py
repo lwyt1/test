@@ -1,8 +1,9 @@
 import time
+
 import allure
-import pytest
-from test_case.back_system.test_qd_1297.Public_section import First_menu
+
 from common import common_config
+from test_case.back_system.test_qd_1297.Public_section import First_menu
 
 
 @allure.epic("crm后台——UI自动化测试项目")

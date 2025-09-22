@@ -1,18 +1,18 @@
-file_path = './新建文本文档.txt'  #文件位置
+# file_path = './新建文本文档.txt'  #文件位置
 
-try:
-    file = open(file_path,'r',encoding='utf-8') #打开txt文件
-    content = file.read()  #读取内容
-    file.close() #关闭文件
-    text = content
-    groups = [text[i:i + 30] for i in range(0, len(text), 30)]
-    new_text = "\n".join(groups)
-    print(new_text)
+# try:
+#     file = open(file_path,'r',encoding='utf-8') #打开txt文件
+#     content = file.read()  #读取内容
+#     file.close() #关闭文件
+#     text = content
+#     groups = [text[i:i + 30] for i in range(0, len(text), 30)]
+#     new_text = "\n".join(groups)
+#     print(new_text)
 
-except FileNotFoundError:
-     print("文件不存在")
+# except FileNotFoundError:
+#      print("文件不存在")
 
-
+print("nihao ")
 
 #
 # from datetime import datetime

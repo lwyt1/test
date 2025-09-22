@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-import time
 import pytest
 from selenium import webdriver
-from common import common_config
+
 """
 -------------------------------------------------
    File Name：    
@@ -22,7 +21,7 @@ test_pytest.fixture 这个实现了和unittest的setup，teardown一样的前置
 def init_driver(request):
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("http://admin.fengou206.com/")
+    driver.get("http://admin.fengou206.com/Public/login")
     driver.implicitly_wait(2)
 # 后置
     yield driver

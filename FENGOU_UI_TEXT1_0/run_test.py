@@ -1,8 +1,6 @@
 import os
 
-import allure
 import pytest
-import shutil
 
 current_path=os.path.dirname(os.path.abspath(__file__))
 json_report_path=current_path+'\\report\\json_report'

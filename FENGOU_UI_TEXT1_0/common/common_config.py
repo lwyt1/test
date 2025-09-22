@@ -1,8 +1,11 @@
 import time
+
 import ddddocr
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+
+
 class CommonFunction:
     def __init__(self,driver):
         self.driver = driver
@@ -25,7 +28,8 @@ class CommonFunction:
             res = ocr.classification(img_bytes)  # 识别验证码
             # 获取的验证码写入文本框
             self.driver.find_element(By.XPATH, '//*[@name="verify"]').send_keys(res)
-            self.driver.find_element(By.CLASS_NAME, 'btn-success').click()
+            # 点击登录
+            self.driver.find_element(By.XPATH, '//*[@id="checkList"]/tbody/tr[10]/td/input[2]').click()
             time.sleep(2)##
 
     def id(self, id):  # 通过id定位

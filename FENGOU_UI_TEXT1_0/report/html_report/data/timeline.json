@@ -2,25 +2,38 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "LAPTOP-LD42PEOC",
+    "name" : "DESKTOP-97N9373",
     "children" : [ {
-      "name" : "23584-MainThread",
+      "name" : "23640-MainThread",
       "children" : [ {
-        "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
-        "uid" : "86e942527fc6e047",
-        "parentUid" : "4b95e20e1ead1a8db0f19b672d28a87e",
+        "name" : "case_001 -- 验证是否新增挑战赛排行榜",
+        "uid" : "5e40a64126cff890",
+        "parentUid" : "52d9ad185201e6e3f59dce17fda3d686",
+        "status" : "broken",
+        "time" : {
+          "start" : 1745732901166,
+          "stop" : 1745732910111,
+          "duration" : 8945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "case_002 -- 验证点击是否查看详情",
+        "uid" : "c9155e22e0e1f5a0",
+        "parentUid" : "52d9ad185201e6e3f59dce17fda3d686",
         "status" : "passed",
         "time" : {
-          "start" : 1702360560271,
-          "stop" : 1702360571038,
-          "duration" : 10767
+          "start" : 1745732916719,
+          "stop" : 1745732923304,
+          "duration" : 6585
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4b95e20e1ead1a8db0f19b672d28a87e"
+      "uid" : "52d9ad185201e6e3f59dce17fda3d686"
     } ],
-    "uid" : "0fd1e670db2d10bce2e9c3322df3250d"
+    "uid" : "550a8fa479e1b3d6afb343b25f59ed72"
   } ]
 }

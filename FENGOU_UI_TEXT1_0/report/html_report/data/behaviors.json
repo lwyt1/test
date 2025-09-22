@@ -4,26 +4,43 @@
   "children" : [ {
     "name" : "crm后台——UI自动化测试项目",
     "children" : [ {
-      "name" : "渠道一键2+1模块",
+      "name" : "1月有效店铺数排行榜模块",
       "children" : [ {
-        "name" : "渠道一键2+1模块 -- 【一键2+1】功能是否有效",
+        "name" : "1月有效店铺数排行榜模块 -- 首页新增功能",
         "children" : [ {
-          "name" : "case_001 -- 验证点击【一键2+1】弹窗是否弹出",
-          "uid" : "86e942527fc6e047",
-          "parentUid" : "228935aae6053fe02263e2bf13696ff9",
-          "status" : "passed",
+          "name" : "case_001 -- 验证是否新增挑战赛排行榜",
+          "uid" : "5e40a64126cff890",
+          "parentUid" : "e2db8d42df631d62df0692f8bf536c97",
+          "status" : "broken",
           "time" : {
-            "start" : 1702360560271,
-            "stop" : 1702360571038,
-            "duration" : 10767
+            "start" : 1745732901166,
+            "stop" : 1745732910111,
+            "duration" : 8945
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "228935aae6053fe02263e2bf13696ff9"
+        "uid" : "e2db8d42df631d62df0692f8bf536c97"
+      }, {
+        "name" : "1月有效店铺数排行榜模块 -- 首页点击功能",
+        "children" : [ {
+          "name" : "case_002 -- 验证点击是否查看详情",
+          "uid" : "c9155e22e0e1f5a0",
+          "parentUid" : "52734b138810fdda2f7ad415b53f1f24",
+          "status" : "passed",
+          "time" : {
+            "start" : 1745732916719,
+            "stop" : 1745732923304,
+            "duration" : 6585
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "52734b138810fdda2f7ad415b53f1f24"
       } ],
-      "uid" : "4e45262f1c81c768755cbd7e3c1e6019"
+      "uid" : "613062879e38a713892820f76be8548e"
     } ],
     "uid" : "13c916c16acaf1f3ccfa140289d01637"
   } ]

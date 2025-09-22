@@ -1,6 +1,8 @@
 import allure
-import time
+
 from common import common_config
+
+
 @allure.epic("crm后台——UI自动化测试项目")
 @allure.feature("登录模块")
 class TestLogin:

@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "fcccb0a49689f67fe6f61f23ac3e80d3",
-    "name" : "test_case.back_system.test_qd_1297",
+    "uid" : "9d92534be93f06bd4c56ce58326d4a27",
+    "name" : "test_case.back_system.test_yxdps_1327",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

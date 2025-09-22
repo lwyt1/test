@@ -1,6 +1,10 @@
 import time
+
 import allure
+
 from common import common_config
+
+
 @allure.epic("crm后台——UI自动化测试项目")
 @allure.feature("弹窗调整提醒模块")
 #@pytest.mark.run_case

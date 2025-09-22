@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='J-ajaxGetBusinessCooperationPk']\"}\n  (Session info: chrome=135.0.7049.115); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n\tGetHandleVerifier [0x00007FF7B87FEFA5+77893]\n\tGetHandleVerifier [0x00007FF7B87FF000+77984]\n\t(No symbol) [0x00007FF7B85C91BA]\n\t(No symbol) [0x00007FF7B861F16D]\n\t(No symbol) [0x00007FF7B861F41C]\n\t(No symbol) [0x00007FF7B8672237]\n\t(No symbol) [0x00007FF7B864716F]\n\t(No symbol) [0x00007FF7B866F07F]\n\t(No symbol) [0x00007FF7B8646F03]\n\t(No symbol) [0x00007FF7B8610328]\n\t(No symbol) [0x00007FF7B8611093]\n\tGetHandleVerifier [0x00007FF7B8AB7B6D+2931725]\n\tGetHandleVerifier [0x00007FF7B8AB2132+2908626]\n\tGetHandleVerifier [0x00007FF7B8AD00F3+3031443]\n\tGetHandleVerifier [0x00007FF7B88191EA+184970]\n\tGetHandleVerifier [0x00007FF7B882086F+215311]\n\tGetHandleVerifier [0x00007FF7B8806EC4+110436]\n\tGetHandleVerifier [0x00007FF7B8807072+110866]\n\tGetHandleVerifier [0x00007FF7B87ED479+5401]\n\tBaseThreadInitThunk [0x00007FFCC57B7374+20]\n\tRtlUserThreadStart [0x00007FFCC64DCC91+33]",
+      "children" : [ {
+        "name" : "case_001 -- 验证是否新增挑战赛排行榜",
+        "uid" : "5e40a64126cff890",
+        "parentUid" : "b5f459e2d10b085551df91cdf5bbc250",
+        "status" : "broken",
+        "time" : {
+          "start" : 1745732901166,
+          "stop" : 1745732910111,
+          "duration" : 8945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5f459e2d10b085551df91cdf5bbc250"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

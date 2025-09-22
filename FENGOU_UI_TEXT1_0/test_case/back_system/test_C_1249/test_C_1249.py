@@ -1,6 +1,6 @@
 import time
+
 import allure
-import pytest
 
 from common import common_config
 
@@ -22,6 +22,7 @@ class TestC1249:
         common_config.ff(driver).xpath('//*[@name="shop_name"]').send_keys("周黑鸭官方旗舰店")  # 定位查询框
         common_config.ff(driver).xpath('//*[@class="layui-btn"]').click()  # 点击查询
         actual_result = common_config.ff(driver).xpath('//*[@class="shop_name"]').text  # 打印实际结果
+        print(actual_result)
         assert actual_result.__contains__("周黑鸭官方旗舰店")  # __contains__表示包含于
         assert actual_result == "周黑鸭官方旗舰店"
 

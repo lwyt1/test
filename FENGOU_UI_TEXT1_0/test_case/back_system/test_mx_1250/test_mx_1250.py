@@ -1,7 +1,10 @@
 import time
-from selenium.webdriver.support.color import Color
-from common import common_config
+
 import allure
+from selenium.webdriver.support.color import Color
+
+from common import common_config
+
 
 @allure.epic("crm后台——UI自动化测试项目")
 @allure.feature("商家资源推广明细模块")
